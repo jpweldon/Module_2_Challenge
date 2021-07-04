@@ -66,9 +66,9 @@ This section should include screenshots, code blocks, or animations explaining h
 
 ## Contributors
 
-In this section, list all the people who contribute to this project; since you may want to be reached by recruiters or potential collaborators, include your contact e-mail, and optionally your LinkedIn or Twitter profile.
-
----
+John P Weldon
+Email: johnpweldon01@gmail.com
+LinkedIn: www.linkedin.com/in/john-weldon-333b0695
 
 ## License
 
