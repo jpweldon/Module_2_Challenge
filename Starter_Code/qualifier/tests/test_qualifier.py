@@ -50,6 +50,6 @@ def test_filters():
     assert len(bank_data_filtered) == 6
 
     # Test the save_csv Function with the Filtered Bank Data
-    csvpath = Path('./data/output/qualifying_loans.csv')
+    csvpath = Path('./data/output/qualifying_loans_filtered.csv')
     fileio.save_csv(csvpath, bank_data_filtered)
-    assert Path('./data/output/qualifying_loans.csv').exists()
+    assert Path('./data/output/qualifying_loans_filtered.csv').exists()
