@@ -29,15 +29,17 @@ def load_csv(csvpath):
             data.append(row)
     return data
 
-def save_csv(qualifying_loans):
-    """Saves the qualifying loans to a CSV file.
+def save_csv(csvpath, data, header=None):
+    """Saves the CSV file from the path provided.
 
     Args:
-        qualifying_loans (list of lists): The qualifying bank loans.
+        csvpath (Path): The csv file path.
+        data (list of lists): The rows of data for the CSV file.
+        header (list): An optional header for the csv.
+        
     """
-   
-    csvpath = Path("qualifying_loans.csv")
     with open(csvpath, 'w', newline='') as csvfile:
-        csvwriter = csv.writer(csvfile)
-        for row in qualifying_loans:
-            csvwriter.writerow(row.values())
+        csvwriter = csv.writer(csvfile, delimiter=',')
+        if header:
+            csvwriter.writerow(header)
+        csvwriter.writerows(data)
