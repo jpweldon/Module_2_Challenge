@@ -30,19 +30,32 @@ At a recent meeting, a new must-have feature request emerged. Specifically, BizO
 
 ## Technologies
 
-For this project, I am using GitHub, Python, the csv module, the pathlib module, the sys module, the  fire library, and the questionary library. 
+This project leverages python 3.7.10 with the following modules:
 
-I am using Python version 3.7.10.
+
+* csv module
+
+* pathlib module
+
+* sys module
+
+* fire library
+
+* questionary library
 
 ---
 
 ## Installation Guide
 
-To install this program:
+Before running the application first install the following dependencies:
 
-Clone the Module_2_Challenge from GitHub:
+Install the fire library:
 
-'git clone https://github.com/jpweldon/Module_2_Challenge.git'
+>'pip install fire'
+
+Install the questionary library:
+
+>'pip install questionary'
 
 ---
 
@@ -54,36 +67,30 @@ Clone the Module_2_Challenge from GitHub:
 
 To use this program:
 
+Clone the Module_2_Challenge repository from GitHub:
+
+>'git clone https://github.com/jpweldon/Module_2_Challenge.git'
+
 Change directories into the Starter_Code/qualifier directory:
 
-'cd Starter_Code/qualifier'
+>'cd Starter_Code/qualifier'
 
 Run the app.py program:
 
-'python app.py'
+>'python app.py'
 
 ---
 
-If you want to run this program for your own data for different scenarios:
-
-Copy the folder into the location on your computer you want your application to be in.
-
-Change directories into the Starter_Code/qualifier directory:
-
-'cd Starter_Code/qualifier'
-
-Update or Replace files in the Starter_Code/qualifier/data directory, Starter_Code/qualifier/qualifier/filters directory, and Starter_Code/qualifier/qualifier/utils directory to contain the data for your scenario(s).
-
-Run the app.py program:
-
-'python app.py'
+If you want to run this program for your own data for different scenarios, simply follow the above steps with the exception to update or replace files in the Starter_Code/qualifier/data directory, Starter_Code/qualifier/qualifier/filters directory, and Starter_Code/qualifier/qualifier/utils directory to contain the data for your scenario(s) before running the program.
 
 ---
 
 ## Contributors
 
 John P Weldon
+
 Email: johnpweldon01@gmail.com
+
 [LinkedIn:] (www.linkedin.com/in/john-weldon-333b0695)
 
 ---
